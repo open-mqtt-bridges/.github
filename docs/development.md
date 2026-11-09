@@ -2,7 +2,7 @@
 
 ## Toolchain and checks
 
-The manifest, owning lockfile and existing CI define the toolchain. Use `none` where applicable. Preserve the established formatter/linter configuration; do not edit generated or vendored code. Run these commands from the repository root:
+The manifest, owning lockfile and existing CI define the toolchain. Use Python 3 and Git; no application dependencies are required. Preserve the established formatter/linter configuration; do not edit generated or vendored code. Run these commands from the repository root:
 
 - `python3 scripts/check-community.py`
 
