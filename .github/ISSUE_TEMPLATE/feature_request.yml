@@ -1,0 +1,16 @@
+name: Feature request
+description: Propose a focused improvement for an active project.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and desired outcome
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior and alternatives
+      description: Describe MQTT or configuration compatibility implications where relevant.
+    validations:
+      required: true
