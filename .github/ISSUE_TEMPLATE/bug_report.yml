@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a reproducible problem in an active bridge.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "For security issues, follow SECURITY.md. Remove credentials and personal device data."
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Include the image tag and deployment method where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include minimal redacted configuration and MQTT examples where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Redacted logs and environment
+      description: Never include tokens, passwords or private device identifiers.
+      render: text
