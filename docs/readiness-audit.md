@@ -54,8 +54,8 @@ All missing own-content licenses were supplied as MIT under the owner's approved
 | `pocketbase` | Passed: `pnpm lint`; `pnpm typecheck`; `pnpm test`; `pnpm build`; `pnpm docs:build` | [PR #65](https://github.com/open-mqtt-bridges/pocketbase/pull/65) | Pending approved merge |
 | `roborock` | Passed: `pnpm lint`; `pnpm typecheck`; `pnpm test`; `pnpm build`; `pnpm docs:build` | [PR #50](https://github.com/open-mqtt-bridges/roborock/pull/50) | Pending approved merge |
 | `wled` | Passed: `pnpm lint`; `pnpm typecheck`; `pnpm test`; `pnpm build`; `pnpm docs:build` | [PR #34](https://github.com/open-mqtt-bridges/wled/pull/34) | Pending approved merge |
-| `.github` | Shared community/profile/brand checks and Spec Kit passed | Coordination feature PR | Community inheritance pending merge |
-| `open-mqtt-bridges.github.io` | Nuxt UI lint/types/format, four Node tests, static routes/assets/version and browser acceptance passed | Website feature PR | Actions source configured; feature deployment pending merge |
+| `.github` | Shared community/profile/brand checks and Spec Kit passed | [PR #3](https://github.com/open-mqtt-bridges/.github/pull/3) | Community inheritance pending merge |
+| `open-mqtt-bridges.github.io` | Nuxt UI lint/types/format, four Node tests, static routes/assets/version and browser acceptance passed | [PR #2](https://github.com/open-mqtt-bridges/open-mqtt-bridges.github.io/pull/2) | Actions source configured; feature deployment pending merge |
 | `idm-energy` | Excluded; archived checkout unchanged | None | README only |
 
 AdGuard Home has no automated application test suite; compilation/bundling and its repaired Docker build passed. The original floating Node LTS builder lacked Yarn; explicit Yarn Classic 1.22.22 installation repairs `yarn: not found`. Roborock passed 30 tests with one existing intentional skip. PocketBase's typecheck now uses the installed `tsc6` compatibility binary; global `tsc` can hide the old runner failure locally.
