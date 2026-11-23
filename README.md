@@ -11,13 +11,14 @@ Open-source bridges that connect devices and services through MQTT. Find a bridg
 <!-- bridges:start -->
 | Bridge | What it connects | Documentation | Status |
 | --- | --- | --- | --- |
-| [AdGuard Home](https://github.com/open-mqtt-bridges/adguardhome) | Publish DNS statistics and control network protection over MQTT. | [README](https://github.com/open-mqtt-bridges/adguardhome#readme) | Active |
+| [AdGuard Home](https://github.com/open-mqtt-bridges/adguardhome) | Publish DNS statistics and control network protection over MQTT. | [Docs](https://open-mqtt-bridges.github.io/adguardhome/) | Active |
 | [Display](https://github.com/open-mqtt-bridges/display) | Connect monitor brightness and DDC/CI controls to your MQTT broker. | [Docs](https://open-mqtt-bridges.github.io/display/) | Active |
 | [Home Connect](https://github.com/open-mqtt-bridges/homeconnect) | Bring connected home appliances into your MQTT automations. | [Docs](https://open-mqtt-bridges.github.io/homeconnect/) | Active |
-| [IDM Energy](https://github.com/open-mqtt-bridges/idm-energy) | A historical MQTT integration for IDM heat-pump systems. | [README](https://github.com/open-mqtt-bridges/idm-energy#readme) | Archived |
+| [IDM Energy](https://github.com/open-mqtt-bridges/idm-energy) | A historical MQTT integration for IDM heat-pump systems. | [Docs](https://open-mqtt-bridges.github.io/idm-energy/) | Archived |
 | [Landroid](https://github.com/open-mqtt-bridges/landroid) | Connect your robotic lawn mower to MQTT-based automations. | [Docs](https://open-mqtt-bridges.github.io/landroid/) | Active |
 | [Modbus](https://github.com/open-mqtt-bridges/modbus) | Bridge Modbus devices and registers to your MQTT network. | [Docs](https://open-mqtt-bridges.github.io/modbus/) | Active |
 | [Philips Hue](https://github.com/open-mqtt-bridges/philips-hue) | Connect Hue lights and your MQTT lighting automations. | [Docs](https://open-mqtt-bridges.github.io/philips-hue/) | Active |
+| [Ping](https://github.com/open-mqtt-bridges/ping) | Check which devices are reachable and publish their response times over MQTT. | [Docs](https://open-mqtt-bridges.github.io/ping/) | Active |
 | [PocketBase](https://github.com/open-mqtt-bridges/pocketbase) | Publish collection updates as MQTT events or retained state. | [Docs](https://open-mqtt-bridges.github.io/pocketbase/) | Active |
 | [Roborock](https://github.com/open-mqtt-bridges/roborock) | Connect vacuum accounts, device state and commands to MQTT. | [Docs](https://open-mqtt-bridges.github.io/roborock/) | Active |
 | [WLED](https://github.com/open-mqtt-bridges/wled) | Connect multiple WLED controllers to MQTT lighting scenes. | [Docs](https://open-mqtt-bridges.github.io/wled/) | Active |
